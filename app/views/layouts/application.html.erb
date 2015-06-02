@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BenchBnb</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKvv2qwOUe_ybRHjPRLWdyYAEyROhQfA4">
+  </script>
+  <script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
+  <script type="text/javascript">
+    filepicker.setKey("ASgqDIcB0TKSxhznAco8Qz");
+  
+  </script>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
